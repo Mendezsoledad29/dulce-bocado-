@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Bocado — Alfajores Artesanales Premium</title>
+
+    <!-- Google Fonts: Playfair Display (títulos) + Raleway (cuerpo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVEGACIÓN FIJA ===== -->
+    <nav class="navbar" id="navbar">
+        <!-- Checkbox oculto para menú hamburguesa (sin JS) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <a href="#inicio" class="logo">Dulce Bocado</a>
+
+        <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== SECCIÓN INICIO (HERO) ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Dulce Bocado</h1>
+            <p class="hero-subtitle">Pequeño por fuera, inolvidable por dentro</p>
+            <p class="hero-desc">Alfajores artesanales premium elaborados con ingredientes seleccionados y el amor por la tradición</p>
+            <a href="#productos" class="btn-primary">Descubre nuestros alfajores</a>
+        </div>
+        <!-- Decoración visual: ondas decorativas -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z" fill="#FDF6EC"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN QUIÉNES SOMOS ===== -->
+    <section class="section" id="quienes-somos">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="divider"><span></span></div>
+
+            <div class="historia">
+                <p>
+                    <strong>Dulce Bocado</strong> nació del amor por la repostería artesanal y el deseo de compartir
+                    sabores que despierten recuerdos. Desde nuestros inicios, nos dedicamos a la producción y
+                    comercialización de alfajores artesanales de alta calidad, elaborados con ingredientes
+                    cuidadosamente seleccionados y recetas perfeccionadas a lo largo del tiempo.
+                </p>
+                <p>
+                    Cada alfajor es preparado de forma artesanal, con la dedicación que solo el trabajo hecho a mano
+                    puede ofrecer. Utilizamos materias primas de primera calidad y combinaciones innovadoras que
+                    hacen de cada bocado una experiencia única e inolvidable.
+                </p>
+            </div>
+
+            <!-- Misión y Visión -->
+            <div class="mision-vision">
+                <div class="mv-card">
+                    <div class="mv-icon">&#9733;</div>
+                    <h3>Misión</h3>
+                    <p>Ofrecer alfajores artesanales de la más alta calidad, elaborados con ingredientes premium y
+                        recetas tradicionales, brindando a cada cliente una experiencia de sabor excepcional.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">&#9733;</div>
+                    <h3>Visión</h3>
+                    <p>Convertirnos en la marca de alfajores artesanales de referencia en la región, reconocidos
+                        por nuestra calidad, innovación y el cariño puesto en cada producto.</p>
+                </div>
+            </div>
+
+            <!-- Valores -->
+            <h3 class="subtitle">Nuestros Valores</h3>
+            <div class="valores">
+                <div class="valor-item">
+                    <div class="valor-icon">&#9679;</div>
+                    <h4>Calidad</h4>
+                    <p>Seleccionamos los mejores ingredientes para garantizar un producto superior.</p>
+                </div>
+                <div class="valor-item">
+                    <div class="valor-icon">&#9679;</div>
+                    <h4>Dedicación</h4>
+                    <p>Cada alfajor es elaborado con esmero, siguiendo procesos artesanales tradicionales.</p>
+                </div>
+                <div class="valor-item">
+                    <div class="valor-icon">&#9679;</div>
+                    <h4>Atención al Cliente</h4>
+                    <p>Nuestros clientes son lo más importante. Escuchamos sus sugerencias para seguir mejorando.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN NUESTROS PRODUCTOS ===== -->
+    <section class="section section-alt" id="productos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="divider"><span></span></div>
+            <p class="section-desc">Descubre nuestra variedad de alfajores artesanales, cada uno con un sabor único y especial.</p>
+
+            <div class="productos-grid">
+                <!-- Alfajor de Chubi -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(135deg, #F5D6C6, #E8A87C);">
+                        <span class="product-img-text">Chubi</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfajor de Chubi</h3>
+                        <p>Clásico alfajor relleno de la tradicional crema Chubi, suave y delicioso.</p>
+                        <span class="product-price">$1.000</span>
+                        <a href="#contacto" class="btn-small">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Alfajor de Oreo -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(135deg, #4A4A4A, #704c4c);">
+                        <span class="product-img-text">Oreo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfajor de Oreo</h3>
+                        <p>Nuestra versión del clásico sabor Oreo, con un toque artesanal irresistible.</p>
+                        <span class="product-price">$1.300</span>
+                        <a href="#contacto" class="btn-small">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Alfajor de Vizzio -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(135deg, #D4A574, #B88352);">
+                        <span class="product-img-text">Vizzio</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfajor de Vizzio</h3>
+                        <p>Suave y cremoso, relleno de la exquisita crema Vizzio que se derrite en el paladar.</p>
+                        <span class="product-price">$1.500</span>
+                        <a href="#contacto" class="btn-small">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Alfajor de Bon o Bon -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(135deg, #8B5E3C, #5C3A21);">
+                        <span class="product-img-text">Bon o Bon</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfajor de Bon o Bon</h3>
+                        <p>Crujiente y cremoso, con el inconfundible sabor del clásico Bon o Bon.</p>
+                        <span class="product-price">$1.800</span>
+                        <a href="#contacto" class="btn-small">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Alfajor Mantequilla de Maní + Bon o Bon -->
+                <div class="product-card">
+                    <div class="product-img" style="background: linear-gradient(135deg, #C8A96E, #A8844A);">
+                        <span class="product-img-text">Maní + Bon o Bon</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfajor Mantequilla de Maní con Bon o Bon</h3>
+                        <p>Combinación irresistible de mantequilla de maní cremosa con el clásico Bon o Bon.</p>
+                        <span class="product-price">$1.800</span>
+                        <a href="#contacto" class="btn-small">Consultar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN GALERÍA ===== -->
+    <section class="section section-alt" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+            <div class="divider"><span></span></div>
+            <p class="section-desc">Así preparamos nuestros alfajores, con dedicación y los mejores ingredientes.</p>
+
+            <div class="galeria-grid">
+                <!-- Cada .galeria-item es un placeholder de imagen. Reemplazar con &lt;img&gt; real. -->
+                <div class="galeria-item" style="background: linear-gradient(135deg, #F5E6D3, #D4A574);">
+                    <div class="galeria-overlay">
+                        <span>Elaboración artesanal</span>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background: linear-gradient(135deg, #E8D5C4, #8B5E3C);">
+                    <div class="galeria-overlay">
+                        <span>Ingredientes premium</span>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background: linear-gradient(135deg, #D4A574, #5C3A21);">
+                    <div class="galeria-overlay">
+                        <span>Alfajor de Chubi</span>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background: linear-gradient(135deg, #C8A96E, #8B5E3C);">
+                    <div class="galeria-overlay">
+                        <span>Alfajor de Oreo</span>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background: linear-gradient(135deg, #E8A87C, #B88352);">
+                    <div class="galeria-overlay">
+                        <span>Alfajor de Vizzio</span>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background: linear-gradient(135deg, #8B5E3C, #2C1810);">
+                    <div class="galeria-overlay">
+                        <span>Alfajor de Bon o Bon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+    <section class="section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="divider"><span></span></div>
+            <p class="section-desc">¿Quieres hacer un pedido o tienes alguna consulta? Escríbenos y te responderemos a la brevedad.</p>
+
+            <div class="contacto-wrapper">
+                <!-- Formulario de contacto -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit">Enviar Mensaje</button>
+                </form>
+
+                <!-- Información de contacto y redes sociales -->
+                <div class="contacto-info">
+                    <div class="info-block">
+                        <h3>Información de Contacto</h3>
+                        <p><strong>Email:</strong> dulcebocadospa2026@gmail.com</p>
+                        <p><strong>Teléfono:</strong> +56 9 6412 9544</p>
+                        <p><strong>Ubicación:</strong> Santiago, Chile</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Síguenos</h3>
+                        <div class="social-links">
+                            <!-- Redes sociales (enlaces de ejemplo) -->
+                            <a href="https://www.instagram.com/_.dulcebocado_spa?igsh=MWo0dGRoanc2MHB0bQ==" target="_blank" rel="noopener" class="social-link social-ig" aria-label="Instagram">
+                                <span class="social-icon">&#9702;&#9702;&#9702;</span>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://wa.me/56964129544" target="_blank" rel="noopener" class="social-link social-wa" aria-label="WhatsApp">
+                                <span class="social-icon">&#9702;&#9702;&#9702;</span>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="info-block horarios">
+                        <h3>Horarios de Atención</h3>
+                        <p><strong>Lunes a Viernes:</strong> 9:00 - 19:00</p>
+                        <p><strong>Sábados:</strong> 10:00 - 14:00</p>
+                        <p><strong>Domingos:</strong> Cerrado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BOTÓN VOLVER AL INICIO ===== -->
+    <a href="#inicio" class="btn-volver" aria-label="Volver al inicio">&#8593;</a>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <strong>Dulce Bocado</strong> — Alfajores Artesanales Premium. Todos los derechos reservados.</p>
+            <p class="footer-tagline">Hechos con amor, para endulzar tu vida.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
